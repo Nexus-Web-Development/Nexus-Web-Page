@@ -25,7 +25,7 @@ This repository hosts the official web portal and landing page for **Nexus Web D
 ---
 
 ## 👥 Collaborators & Team
-- [@satiricalguru](https://github.com/satiricalguru) (Lead / Admin)
+- [@satiricalguru](https://github.com/satiricalguru) (Core Team)
 - [@vs2030codes-ops](https://github.com/vs2030codes-ops)
 - [@lakshya-agrawal254](https://github.com/lakshya-agrawal254)
 - [@Aaravcodesss](https://github.com/Aaravcodesss)
