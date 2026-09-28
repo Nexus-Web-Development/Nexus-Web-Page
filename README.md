@@ -31,6 +31,7 @@ This repository hosts the official web portal and landing page for **Nexus Web D
 - [@Aaravcodesss](https://github.com/Aaravcodesss)
 - [@SynthReaper](https://github.com/SynthReaper)
 - [@Priyanshuf7](https://github.com/Priyanshuf7)
+- [@saadseraj130-arch](https://github.com/saadseraj130-arch)
 
 ---
 
