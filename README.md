@@ -22,7 +22,7 @@
     <a href="https://github.com/Nexus-Web-Development"><img src="https://img.shields.io/badge/Organization-Nexus_Web_Development-D4AF37?style=for-the-badge&logo=github&logoColor=black" /></a>
     <a href="https://jaipur.manipal.edu/"><img src="https://img.shields.io/badge/Campus-Manipal_University_Jaipur-F15A24?style=for-the-badge&logo=googlemaps&logoColor=white" /></a>
     <a href="#-interactive-tech-radar"><img src="https://img.shields.io/badge/Stack-WebGL_•_Next.js_•_Three.js-000000?style=for-the-badge&logo=three.js&logoColor=F5CE62" /></a>
-    <a href="#-core-team--collaborators"><img src="https://img.shields.io/badge/Team-8_Core_Members-10B981?style=for-the-badge&logo=shield" /></a>
+    <a href="#-core-builders"><img src="https://img.shields.io/badge/Builders-3_Core_Creators-10B981?style=for-the-badge&logo=shield" /></a>
   </p>
 
   <!-- Quick Navigation Pills -->
@@ -30,7 +30,7 @@
     <a href="#-about-the-mission"><b>[ 🚀 Mission ]</b></a> •
     <a href="#-core-domains--tracks"><b>[ 🪐 Domains ]</b></a> •
     <a href="#-interactive-tech-radar"><b>[ 🛠️ Tech Radar ]</b></a> •
-    <a href="#-core-team--collaborators"><b>[ 👥 Team ]</b></a> •
+    <a href="#-core-builders"><b>[ 👥 Builders ]</b></a> •
     <a href="#-active-projects"><b>[ 🛰️ Projects ]</b></a> •
     <a href="#-how-to-contribute"><b>[ 🤝 Join Us ]</b></a>
   </p>
@@ -95,71 +95,36 @@ The **Web Development Wing** translates scientific research, rocketry telemetry,
 
 <img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/assets/cosmic-divider.svg" width="100%" />
 
-## 👥 Core Team & Collaborators
+## 👥 Core Builders
+
+<p align="center">
+  <i>Designed, architected, and engineered by the core trio for the Nexus Space & Research Web Experience at Manipal University Jaipur.</i>
+</p>
 
 <div align="center">
 
 <table>
   <tr>
-    <td align="center" width="130">
+    <td align="center" width="160">
       <a href="https://github.com/satiricalguru">
-        <img src="https://github.com/satiricalguru.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
+        <img src="https://github.com/satiricalguru.png?size=100" width="85" height="85" style="border-radius: 50%;" /><br />
         <sub><b>Jatin Pandey</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
+      <img src="https://img.shields.io/badge/Core_Builder-D4AF37?style=flat-square" />
     </td>
-    <td align="center" width="130">
-      <a href="https://github.com/vs2030codes-ops">
-        <img src="https://github.com/vs2030codes-ops.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
-        <sub><b>Vansh Sood</b></sub>
-      </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
-    </td>
-    <td align="center" width="130">
-      <a href="https://github.com/lakshya-agrawal254">
-        <img src="https://github.com/lakshya-agrawal254.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
-        <sub><b>Lakshya</b></sub>
-      </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="130">
-      <a href="https://github.com/Aaravcodesss">
-        <img src="https://github.com/Aaravcodesss.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
-        <sub><b>Aarav Srivastava</b></sub>
-      </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
-    </td>
-    <td align="center" width="130">
+    <td align="center" width="160">
       <a href="https://github.com/SynthReaper">
-        <img src="https://github.com/SynthReaper.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
+        <img src="https://github.com/SynthReaper.png?size=100" width="85" height="85" style="border-radius: 50%;" /><br />
         <sub><b>Aditya Goyal</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
+      <img src="https://img.shields.io/badge/Core_Builder-D4AF37?style=flat-square" />
     </td>
-    <td align="center" width="130">
-      <a href="https://github.com/Priyanshuf7">
-        <img src="https://github.com/Priyanshuf7.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
-        <sub><b>Priyanshu</b></sub>
+    <td align="center" width="160">
+      <a href="https://github.com/lakshya-agrawal254">
+        <img src="https://github.com/lakshya-agrawal254.png?size=100" width="85" height="85" style="border-radius: 50%;" /><br />
+        <sub><b>Lakshya</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="130">
-      <a href="https://github.com/saadseraj130-arch">
-        <img src="https://github.com/saadseraj130-arch.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
-        <sub><b>Saad Seraj</b></sub>
-      </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
-    </td>
-    <td align="center" width="130">
-      <a href="https://github.com/Arnav2008">
-        <img src="https://github.com/Arnav2008.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
-        <sub><b>Arnav Singh</b></sub>
-      </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
+      <img src="https://img.shields.io/badge/Core_Builder-D4AF37?style=flat-square" />
     </td>
   </tr>
 </table>
