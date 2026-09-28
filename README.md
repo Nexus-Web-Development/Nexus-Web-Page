@@ -22,7 +22,7 @@
     <a href="https://github.com/Nexus-Web-Development"><img src="https://img.shields.io/badge/Organization-Nexus_Web_Development-D4AF37?style=for-the-badge&logo=github&logoColor=black" /></a>
     <a href="https://jaipur.manipal.edu/"><img src="https://img.shields.io/badge/Campus-Manipal_University_Jaipur-F15A24?style=for-the-badge&logo=googlemaps&logoColor=white" /></a>
     <a href="#-interactive-tech-radar"><img src="https://img.shields.io/badge/Stack-WebGL_•_Next.js_•_Three.js-000000?style=for-the-badge&logo=three.js&logoColor=F5CE62" /></a>
-    <a href="#-core-team--collaborators"><img src="https://img.shields.io/badge/Team-6_Core_Members-10B981?style=for-the-badge&logo=shield" /></a>
+    <a href="#-core-team--collaborators"><img src="https://img.shields.io/badge/Team-8_Core_Members-10B981?style=for-the-badge&logo=shield" /></a>
   </p>
 
   <!-- Quick Navigation Pills -->
@@ -147,10 +147,17 @@ The **Web Development Wing** translates scientific research, rocketry telemetry,
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="3">
+    <td align="center" width="130">
       <a href="https://github.com/saadseraj130-arch">
         <img src="https://github.com/saadseraj130-arch.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
         <sub><b>Saad Seraj</b></sub>
+      </a><br />
+      <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
+    </td>
+    <td align="center" width="130">
+      <a href="https://github.com/Arnav2008">
+        <img src="https://github.com/Arnav2008.png?size=100" width="80" height="80" style="border-radius: 50%;" /><br />
+        <sub><b>Arnav Singh</b></sub>
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-D4AF37?style=flat-square" />
     </td>
