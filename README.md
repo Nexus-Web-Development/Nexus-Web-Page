@@ -1,15 +1,15 @@
 <div align="center">
 
-  <!-- Logo Banner -->
+  <!-- Widescreen Hero Banner -->
   <a href="https://github.com/Nexus-Web-Development">
-    <img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/nexus-logo.png" alt="Nexus Logo" width="380" style="border-radius: 20px;" />
+    <img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/nexus-banner.png" alt="Nexus Widescreen Banner" width="100%" style="border-radius: 12px;" />
   </a>
 
-  <br />
+  <br /><br />
 
   <!-- Animated Typing Header -->
   <a href="https://github.com/Nexus-Web-Development">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=2500&pause=1000&color=F5CE62&center=true&vCenter=true&width=750&height=55&lines=NEXUS+WEB+DEVELOPMENT;RESEARCH+•+SPACE+•+TECHNOLOGY;MANIPAL+UNIVERSITY+JAIPUR;PIONEERING+COSMIC+WEB+EXPERIENCES" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=2500&pause=1000&color=F5CE62&center=true&vCenter=true&width=750&height=55&lines=NEXUS+WEB+DEVELOPMENT;RESEARCH+%7C+SPACE+%7C+TECHNOLOGY;MANIPAL+UNIVERSITY+JAIPUR;PIONEERING+COSMIC+WEB+EXPERIENCES" alt="Typing SVG" />
   </a>
 
   <p align="center">
