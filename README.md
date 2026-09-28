@@ -9,3 +9,6 @@ This project hosts the Nexus web experience.
 - [@satiricalguru](https://github.com/satiricalguru) (Owner)
 - [@vs2030codes-ops](https://github.com/vs2030codes-ops)
 - [@lakshya-agrawal254](https://github.com/lakshya-agrawal254)
+- [@Aaravcodesss](https://github.com/Aaravcodesss)
+- [@SynthReaper](https://github.com/SynthReaper)
+- [@Priyanshuf7](https://github.com/Priyanshuf7)
