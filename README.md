@@ -27,6 +27,7 @@
 
   <!-- Quick Navigation Pills -->
   <p align="center">
+    <a href="https://github.com/Nexus-Web-Development"><b>[ 🏛️ Organization ]</b></a> •
     <a href="#-about-the-mission"><b>[ 🚀 Mission ]</b></a> •
     <a href="#-core-domains--tracks"><b>[ 🪐 Domains ]</b></a> •
     <a href="#-interactive-tech-radar"><b>[ 🛠️ Tech Radar ]</b></a> •
@@ -38,6 +39,12 @@
   <img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/assets/cosmic-divider.svg" width="100%" />
 
 </div>
+
+> [!NOTE]
+> ### 🏛️ Official Club Organization
+> This repository is built for **[Nexus Web Development](https://github.com/Nexus-Web-Development)** — the official Web & Digital Wing of the **Nexus Research, Space & Technology Club** at **Manipal University Jaipur (MUJ)**.
+> 
+> 🌐 **Explore the Official Organization**: **[https://github.com/Nexus-Web-Development](https://github.com/Nexus-Web-Development)**
 
 ## 🚀 About The Mission
 
