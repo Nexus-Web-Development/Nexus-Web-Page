@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="100%" height="40">
+  <defs>
+    <linearGradient id="goldBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0" />
+      <stop offset="25%" stop-color="#D4AF37" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#FFF3C4" stop-opacity="1" />
+      <stop offset="75%" stop-color="#D4AF37" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="laserPulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5CE62" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="100%" stop-color="#E4AF3A" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="goldGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes laserMove {
+        0% { transform: translateX(-300px); opacity: 0; }
+        30% { opacity: 1; }
+        70% { opacity: 1; }
+        100% { transform: translateX(900px); opacity: 0; }
+      }
+      @keyframes starPulse {
+        0%, 100% { transform: scale(1); opacity: 0.8; filter: drop-shadow(0 0 4px #F5CE62); }
+        50% { transform: scale(1.3); opacity: 1; filter: drop-shadow(0 0 10px #FFF3C4); }
+      }
+      @keyframes floatBeads {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3px); }
+      }
+      .laser {
+        animation: laserMove 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .center-star {
+        transform-origin: 450px 20px;
+        animation: starPulse 2.5s ease-in-out infinite;
+      }
+      .floating {
+        animation: floatBeads 3s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Line -->
+  <line x1="50" y1="20" x2="850" y2="20" stroke="url(#goldBeam)" stroke-width="1.5" />
+  <line x1="150" y1="20" x2="750" y2="20" stroke="#E4AF3A" stroke-width="0.8" stroke-opacity="0.6" filter="url(#goldGlow)" />
+
+  <!-- Animated Laser Stream -->
+  <g class="laser">
+    <rect x="0" y="18.5" width="220" height="3" rx="1.5" fill="url(#laserPulse)" filter="url(#goldGlow)" />
+  </g>
+
+  <!-- Left Accent Nodes -->
+  <circle cx="280" cy="20" r="2" fill="#F5CE62" opacity="0.6" />
+  <circle cx="360" cy="20" r="2.5" fill="#FFF3C4" opacity="0.8" />
+
+  <!-- Right Accent Nodes -->
+  <circle cx="540" cy="20" r="2.5" fill="#FFF3C4" opacity="0.8" />
+  <circle cx="620" cy="20" r="2" fill="#F5CE62" opacity="0.6" />
+
+  <!-- Center Cosmic Node -->
+  <g class="center-star">
+    <circle cx="450" cy="20" r="7" fill="#111" stroke="#D4AF37" stroke-width="1.5" filter="url(#goldGlow)" />
+    <!-- 4-point star -->
+    <path d="M 450 14 L 452 19 L 457 20 L 452 21 L 450 26 L 448 21 L 443 20 L 448 19 Z" fill="#FFF3C4" />
+    <circle cx="450" cy="20" r="1.5" fill="#FFFFFF" />
+  </g>
+</svg>
