@@ -222,28 +222,28 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
         <img src="https://github.com/Vedant275.png?size=100" width="80" height="80" alt="Vedant Sharma" /><br />
         <sub><b>Vedant Sharma</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Vice_President-F0F0FA&labelColor=000000?style=flat-square" alt="Vice President" />
+      <img src="https://img.shields.io/badge/Vice_President-F0F0FA?style=flat-square" alt="Vice President" />
     </td>
     <td align="center" width="150">
       <a href="https://github.com/Tejas-Narula">
         <img src="https://github.com/Tejas-Narula.png?size=100" width="80" height="80" alt="Tejas Narula" /><br />
         <sub><b>Tejas Narula</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/TechOps_Lead-F0F0FA&labelColor=000000?style=flat-square" alt="TechOps Lead" />
+      <img src="https://img.shields.io/badge/TechOps_Lead-F0F0FA?style=flat-square" alt="TechOps Lead" />
     </td>
     <td align="center" width="150">
       <a href="https://github.com/Kaustav5505g">
         <img src="https://github.com/Kaustav5505g.png?size=100" width="80" height="80" alt="Kaustav Paul" /><br />
         <sub><b>Kaustav Paul</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Team_Head-F0F0FA&labelColor=000000?style=flat-square" alt="Team Head" />
+      <img src="https://img.shields.io/badge/Team_Head-F0F0FA?style=flat-square" alt="Team Head" />
     </td>
     <td align="center" width="150">
       <a href="https://github.com/shaazadil">
         <img src="https://github.com/shaazadil.png?size=100" width="80" height="80" alt="Shaaz Adil" /><br />
         <sub><b>Shaaz Adil</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Team_Head-F0F0FA&labelColor=000000?style=flat-square" alt="Team Head" />
+      <img src="https://img.shields.io/badge/Team_Head-F0F0FA?style=flat-square" alt="Team Head" />
     </td>
   </tr>
   <tr>
