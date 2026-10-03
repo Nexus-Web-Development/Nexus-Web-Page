@@ -212,7 +212,7 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
 
 ## 👥 Core Builders
 
-<p align="center"><i>Designed, architected and engineered by the Nexus Web Development wing: 12 builders.</i></p>
+<p align="center"><i>Designed, architected and engineered by the Nexus Web Development wing: 13 builders.</i></p>
 
 <div align="center">
 <table>
@@ -246,6 +246,13 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
   </tr>
   <tr>
     <td align="center" width="150">
+      <a href="https://github.com/satiricalguru">
+        <img src="https://github.com/satiricalguru.png?size=100" width="80" height="80" alt="Jatin Pandey" /><br />
+        <sub><b>Jatin Pandey</b></sub>
+      </a><br />
+      <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
+    </td>
+    <td align="center" width="150">
       <a href="https://github.com/SynthReaper">
         <img src="https://github.com/SynthReaper.png?size=100" width="80" height="80" alt="Aditya Goyal" /><br />
         <sub><b>Aditya Goyal</b></sub>
@@ -266,6 +273,8 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
+  </tr>
+  <tr>
     <td align="center" width="150">
       <a href="https://github.com/Aaravcodesss">
         <img src="https://github.com/Aaravcodesss.png?size=100" width="80" height="80" alt="Aarav Srivastava" /><br />
@@ -273,8 +282,6 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
-  </tr>
-  <tr>
     <td align="center" width="150">
       <a href="https://github.com/Priyanshuf7">
         <img src="https://github.com/Priyanshuf7.png?size=100" width="80" height="80" alt="Priyanshu" /><br />
@@ -296,6 +303,8 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
+  </tr>
+  <tr>
     <td align="center" width="150">
       <a href="https://github.com/Rashmi-builds">
         <img src="https://github.com/Rashmi-builds.png?size=100" width="80" height="80" alt="Rashmi" /><br />
