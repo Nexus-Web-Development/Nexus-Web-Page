@@ -212,7 +212,7 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
 
 ## 👥 Core Builders
 
-<p align="center"><i>Designed, architected and engineered by the Nexus Web Development wing: 10 builders.</i></p>
+<p align="center"><i>Designed, architected and engineered by the Nexus Web Development wing: 12 builders.</i></p>
 
 <div align="center">
 <table>
@@ -245,6 +245,8 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
+  </tr>
+  <tr>
     <td align="center" width="150">
       <a href="https://github.com/vs2030codes-ops">
         <img src="https://github.com/vs2030codes-ops.png?size=100" width="80" height="80" alt="Vansh Sood" /><br />
@@ -252,8 +254,6 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
-  </tr>
-  <tr>
     <td align="center" width="150">
       <a href="https://github.com/Aaravcodesss">
         <img src="https://github.com/Aaravcodesss.png?size=100" width="80" height="80" alt="Aarav Srivastava" /><br />
@@ -275,6 +275,8 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
+  </tr>
+  <tr>
     <td align="center" width="150">
       <a href="https://github.com/Arnav2008">
         <img src="https://github.com/Arnav2008.png?size=100" width="80" height="80" alt="Arnav Singh" /><br />
@@ -286,6 +288,20 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       <a href="https://github.com/Rashmi-builds">
         <img src="https://github.com/Rashmi-builds.png?size=100" width="80" height="80" alt="Rashmi" /><br />
         <sub><b>Rashmi</b></sub>
+      </a><br />
+      <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/shaazadil">
+        <img src="https://github.com/shaazadil.png?size=100" width="80" height="80" alt="Shaaz Adil" /><br />
+        <sub><b>Shaaz Adil</b></sub>
+      </a><br />
+      <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/Tejas-Narula">
+        <img src="https://github.com/Tejas-Narula.png?size=100" width="80" height="80" alt="Tejas Narula" /><br />
+        <sub><b>Tejas Narula</b></sub>
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
