@@ -343,6 +343,7 @@ git push origin feat/your-idea           # 5. open a Pull Request
 
 <div align="center">
 
+<a href="https://discord.gg/d4FEQjtuf"><img src="https://img.shields.io/badge/Discord-Nexus_MUJ_Forum-000000?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 <a href="https://www.instagram.com/nexus_muj/"><img src="https://img.shields.io/badge/Instagram-@nexus__muj-000000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 <a href="https://www.linkedin.com/company/nexus-manipal-jaipur/"><img src="https://img.shields.io/badge/LinkedIn-Nexus_Manipal_Jaipur-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:nexus@jaipur.manipal.edu"><img src="https://img.shields.io/badge/Email-nexus@jaipur.manipal.edu-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
