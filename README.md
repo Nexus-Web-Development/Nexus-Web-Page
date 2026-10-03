@@ -232,8 +232,10 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       <img src="https://img.shields.io/badge/TechOps_Lead-F0F0FA&labelColor=000000?style=flat-square" alt="TechOps Lead" />
     </td>
     <td align="center" width="150">
-      <img src="https://github.com/identicons/nexus.png" width="80" height="80" alt="Kaustav Paul" /><br />
-      <sub><b>Kaustav Paul</b></sub><br />
+      <a href="https://github.com/Kaustav5505g">
+        <img src="https://github.com/Kaustav5505g.png?size=100" width="80" height="80" alt="Kaustav Paul" /><br />
+        <sub><b>Kaustav Paul</b></sub>
+      </a><br />
       <img src="https://img.shields.io/badge/Team_Head-F0F0FA&labelColor=000000?style=flat-square" alt="Team Head" />
     </td>
     <td align="center" width="150">
