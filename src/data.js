@@ -99,6 +99,24 @@ export const formats = [
   { code: 'WGL', title: 'Creative Code', body: 'WebGL, shaders and visualisation sessions for anyone curious about 3D on the web.' },
 ];
 
+export const membership = {
+  epoch: '2026–27',
+  fee: 250,
+  pitch: 'Nexus is the only Space & Satellite Technology chapter at Manipal University Jaipur, where we explore these fields through research, technical projects and hands-on learning.',
+  perks: [
+    { title: 'Build real hardware', body: 'Work on technical, hardware and engineering projects.' },
+    { title: 'Industry exposure', body: 'Get opportunities for internships and industry exposure.' },
+    { title: '1-on-1 mentorship', body: 'Senior mentors teach you how to write and publish research papers.' },
+    { title: 'Workshops & competitions', body: 'Join workshops, competitions and collaborative projects.' },
+  ],
+};
+
+export const faculty = {
+  role: 'Faculty Coordinator',
+  name: 'Dr Bali Devi',
+  email: 'bali.devi@jaipur.manipal.edu',
+};
+
 export const channels = [
   { label: 'LinkedIn', handle: 'company/nexus-manipal-jaipur', href: 'https://www.linkedin.com/company/nexus-manipal-jaipur/', note: 'Research collaborations, achievements & project highlights' },
   { label: 'Instagram', handle: '@nexus_muj', href: 'https://www.instagram.com/nexus_muj/', note: 'Sky-watch sessions, hackathon nights & event stories' },

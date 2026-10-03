@@ -1390,6 +1390,148 @@ main,
 /* --------------------------------------------------------------------------
    Contact
    -------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------
+   Membership
+   -------------------------------------------------------------------------- */
+.join {
+  padding: var(--section) 0;
+}
+.join__pitch {
+  max-width: 40ch;
+}
+.join__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(300px, 1fr);
+  gap: clamp(40px, 6vw, 96px);
+  align-items: start;
+}
+.perks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--line-strong);
+}
+.perk {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 28px 24px 32px 0;
+  border-bottom: 1px solid var(--line);
+}
+.perk:nth-child(2n) {
+  padding-left: 24px;
+  border-left: 1px solid var(--line);
+}
+.perk__n {
+  color: var(--faint);
+}
+.perk__title {
+  margin: 20px 0 0;
+  font-weight: 700;
+  font-size: clamp(20px, 1.8vw, 26px);
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.perk__body {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+.ticket {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: rgba(0, 0, 0, 0.6);
+}
+.ticket::before,
+.ticket::after {
+  /* boarding-pass notches */
+  content: '';
+  position: absolute;
+  top: 58px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--void);
+  border: 1px solid var(--line-strong);
+}
+.ticket::before {
+  left: -9px;
+  clip-path: inset(0 0 0 50%);
+}
+.ticket::after {
+  right: -9px;
+  clip-path: inset(0 50% 0 0);
+}
+.ticket__top {
+  display: flex;
+  justify-content: space-between;
+  color: var(--faint);
+  padding-bottom: 18px;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed var(--line-strong);
+}
+.ticket__kicker {
+  color: var(--muted);
+}
+.ticket__fee {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-weight: 700;
+  font-size: clamp(88px, 9vw, 140px);
+  line-height: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+.ticket__cur {
+  font-size: 0.36em;
+  font-weight: 500;
+  margin-top: 0.12em;
+  color: var(--muted);
+}
+.ticket__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+.faculty {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  width: 100%;
+}
+.faculty__name {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+}
+@media (max-width: 900px) {
+  .join__grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 560px) {
+  .perks {
+    grid-template-columns: 1fr;
+  }
+  .perk:nth-child(2n) {
+    padding-left: 0;
+    border-left: 0;
+  }
+  .ticket__ctas .btn {
+    flex: 1 1 auto;
+    justify-content: space-between;
+  }
+}
+
 .contact {
   padding: var(--section) 0 clamp(120px, 22vh, 240px);
   min-height: 100vh;
@@ -1517,7 +1659,7 @@ main,
 }
 .footer__row {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr auto;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr auto;
   gap: 24px;
   align-items: start;
 }

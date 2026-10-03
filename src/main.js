@@ -5,7 +5,7 @@ import { SplitText } from 'gsap/SplitText';
 import { ScrambleTextPlugin } from 'gsap/ScrambleTextPlugin';
 import Lenis from 'lenis';
 import { createScene, defaults } from './scene.js';
-import { pillars, domains, divisions, formats, channels, crew, crewFilters, countFor } from './data.js';
+import { pillars, domains, divisions, formats, channels, membership, crew, crewFilters, countFor } from './data.js';
 
 gsap.registerPlugin(ScrollTrigger, SplitText, ScrambleTextPlugin);
 
@@ -162,6 +162,21 @@ function renderFormats() {
     .join('');
 }
 
+function renderMembership() {
+  $('[data-join-pitch]').textContent = membership.pitch;
+  $('[data-fee]').dataset.count = membership.fee;
+  $('[data-perks]').innerHTML = membership.perks
+    .map(
+      (p, i) => `
+      <li class="perk">
+        <span class="label perk__n">${pad(i + 1)}</span>
+        <h3 class="perk__title">${p.title}</h3>
+        <p class="perk__body">${p.body}</p>
+      </li>`
+    )
+    .join('');
+}
+
 function renderChannels() {
   $('[data-channels]').innerHTML = channels
     .map(
@@ -285,6 +300,7 @@ renderDomains();
 renderDivisions();
 renderFormats();
 renderChannels();
+renderMembership();
 initCrew();
 $$('.btn > span').forEach((s) => (s.dataset.text = s.textContent));
 
@@ -343,6 +359,7 @@ function measureFrames() {
     [sticky('#divisions', 1), { pop: 0.45 }],
     [sticky('#events', 0.5), { pop: 0.3 }],
     [top('#crew', 0), { pop: 0.14, stars: 0.6, px: 0, py: -9, pz: -1, ps: m ? 3.2 : 4.6, po: 0, sx: 0, sy: 0.3, sz: -1 }],
+    [top('#contact', -0.85), {}], // hold the planet below frame through the membership section
     [top('#contact', -0.25), { pop: 0, stars: 1, py: m ? -4.1 : -5.55, po: 1, sunrise: 1 }],
     [top('#contact', 0.45), { py: m ? -5.2 : -7.6, sunrise: 0.8 }],
   ];
@@ -440,7 +457,7 @@ function initReveals() {
   });
 
   // generic fade-ups
-  gsap.utils.toArray('.domain, .stat, .channel, .command__cell, .contact__primary > *').forEach((el, i) => {
+  gsap.utils.toArray('.domain, .stat, .channel, .command__cell, .perk, .ticket, .contact__primary > *').forEach((el, i) => {
     gsap.from(el, {
       opacity: 0,
       y: 40,
