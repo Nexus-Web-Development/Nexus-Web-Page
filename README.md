@@ -225,12 +225,26 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       <img src="https://img.shields.io/badge/Vice_President-F0F0FA&labelColor=000000?style=flat-square" alt="Vice President" />
     </td>
     <td align="center" width="150">
-      <a href="https://github.com/satiricalguru">
-        <img src="https://github.com/satiricalguru.png?size=100" width="80" height="80" alt="Jatin Pandey" /><br />
-        <sub><b>Jatin Pandey</b></sub>
+      <a href="https://github.com/Tejas-Narula">
+        <img src="https://github.com/Tejas-Narula.png?size=100" width="80" height="80" alt="Tejas Narula" /><br />
+        <sub><b>Tejas Narula</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
+      <img src="https://img.shields.io/badge/TechOps_Lead-F0F0FA&labelColor=000000?style=flat-square" alt="TechOps Lead" />
     </td>
+    <td align="center" width="150">
+      <img src="https://github.com/identicons/nexus.png" width="80" height="80" alt="Kaustav Paul" /><br />
+      <sub><b>Kaustav Paul</b></sub><br />
+      <img src="https://img.shields.io/badge/Team_Head-F0F0FA&labelColor=000000?style=flat-square" alt="Team Head" />
+    </td>
+    <td align="center" width="150">
+      <a href="https://github.com/shaazadil">
+        <img src="https://github.com/shaazadil.png?size=100" width="80" height="80" alt="Shaaz Adil" /><br />
+        <sub><b>Shaaz Adil</b></sub>
+      </a><br />
+      <img src="https://img.shields.io/badge/Team_Head-F0F0FA&labelColor=000000?style=flat-square" alt="Team Head" />
+    </td>
+  </tr>
+  <tr>
     <td align="center" width="150">
       <a href="https://github.com/SynthReaper">
         <img src="https://github.com/SynthReaper.png?size=100" width="80" height="80" alt="Aditya Goyal" /><br />
@@ -245,8 +259,6 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
-  </tr>
-  <tr>
     <td align="center" width="150">
       <a href="https://github.com/vs2030codes-ops">
         <img src="https://github.com/vs2030codes-ops.png?size=100" width="80" height="80" alt="Vansh Sood" /><br />
@@ -261,6 +273,8 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
+  </tr>
+  <tr>
     <td align="center" width="150">
       <a href="https://github.com/Priyanshuf7">
         <img src="https://github.com/Priyanshuf7.png?size=100" width="80" height="80" alt="Priyanshu" /><br />
@@ -275,8 +289,6 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
-  </tr>
-  <tr>
     <td align="center" width="150">
       <a href="https://github.com/Arnav2008">
         <img src="https://github.com/Arnav2008.png?size=100" width="80" height="80" alt="Arnav Singh" /><br />
@@ -291,26 +303,9 @@ A mission-control look in the style of SpaceX: **cinematic darkness, industrial 
       </a><br />
       <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
     </td>
-    <td align="center" width="150">
-      <a href="https://github.com/shaazadil">
-        <img src="https://github.com/shaazadil.png?size=100" width="80" height="80" alt="Shaaz Adil" /><br />
-        <sub><b>Shaaz Adil</b></sub>
-      </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
-    </td>
-    <td align="center" width="150">
-      <a href="https://github.com/Tejas-Narula">
-        <img src="https://github.com/Tejas-Narula.png?size=100" width="80" height="80" alt="Tejas Narula" /><br />
-        <sub><b>Tejas Narula</b></sub>
-      </a><br />
-      <img src="https://img.shields.io/badge/Core_Team-4DA3F0?style=flat-square" alt="Core Team" />
-    </td>
   </tr>
 </table>
 
-<a href="https://github.com/Nexus-Web-Development/Nexus-Web-Page/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Nexus-Web-Development/Nexus-Web-Page" alt="Contributors" />
-</a>
 </div>
 
 <div align="center"><img src=".github/assets/divider.svg" width="100%" alt="" /></div>
