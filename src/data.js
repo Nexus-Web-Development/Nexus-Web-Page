@@ -127,7 +127,7 @@ export const faculty = {
 
 export const channels = [
   { label: 'LinkedIn', handle: 'company/nexus-manipal-jaipur', href: 'https://www.linkedin.com/company/nexus-manipal-jaipur/', note: 'Research collaborations, achievements & project highlights' },
-  { label: 'Discord', handle: 'Nexus MUJ Forum', href: 'https://discord.gg/d4FEQjtuf', note: 'Chat with the crew, ask questions & catch drive updates' },
+  { label: 'Discord', handle: 'Nexus MUJ Forum', href: 'https://discord.com/invite/H2886jap7K', note: 'Chat with the crew, ask questions & catch drive updates' },
   { label: 'Instagram', handle: '@nexus_muj', href: 'https://www.instagram.com/nexus_muj/', note: 'Sky-watch sessions, hackathon nights & event stories' },
   { label: 'MUJ DSW', handle: 'jaipur.manipal.edu/dsw', href: 'https://www.jaipur.manipal.edu/dsw-student-clubs.php', note: 'Accredited under the Directorate of Student Welfare' },
   { label: 'GitHub', handle: 'Nexus-Web-Development/Nexus-Web-Page', href: 'https://github.com/Nexus-Web-Development/Nexus-Web-Page', note: 'WebGL portal source, shaders & space software' },
