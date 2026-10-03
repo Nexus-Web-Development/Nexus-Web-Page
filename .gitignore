@@ -4,7 +4,6 @@ Thumbs.db
 
 # Dependencies
 node_modules/
-package-lock.json
 
 # Build outputs
 dist/
@@ -15,3 +14,8 @@ build/
 .env
 .env.local
 .env.*.local
+
+# Tooling
+.vercel
+.claude/
+.env*

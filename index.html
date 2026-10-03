@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus — Research, Space &amp; Technology · Manipal University Jaipur</title>
+    <meta name="description" content="Nexus is a student-led research, space and technology club at Manipal University Jaipur — deep space & astrophysics, ground stations & telemetry, and the spatial web." />
+    <meta name="theme-color" content="#000000" />
+    <meta property="og:title" content="Nexus — Where curiosity meets orbit" />
+    <meta property="og:description" content="Student-led research, space & technology club at Manipal University Jaipur." />
+    <meta property="og:image" content="/nexus-logo.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Michroma&display=swap" rel="stylesheet" />
+  </head>
+  <body class="is-loading">
+    <canvas id="webgl" aria-hidden="true"></canvas>
+
+    <!-- Loader -->
+    <div class="loader" aria-hidden="true">
+      <div class="loader__top">
+        <span class="label">Nexus // Station MUJ-303007</span>
+        <span class="label" data-loader-status>Establishing uplink</span>
+      </div>
+      <div class="loader__count"><span data-loader-count>000</span></div>
+      <div class="loader__bar"><span></span></div>
+      <div class="loader__bottom">
+        <span class="label">26.8439° N, 75.5652° E</span>
+        <span class="label">Epoch 2026–27</span>
+      </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor" aria-hidden="true">
+      <span class="cursor__ring"></span>
+      <span class="cursor__dot"></span>
+      <span class="cursor__label label"></span>
+    </div>
+
+    <!-- Header -->
+    <header class="nav" data-nav>
+      <a href="#top" class="nav__brand" aria-label="Nexus — home">
+        <svg class="mark" viewBox="0 0 48 48" aria-hidden="true">
+          <defs>
+            <linearGradient id="orbitA" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4da3f0" /><stop offset="1" stop-color="#f0f0fa" /></linearGradient>
+            <linearGradient id="orbitB" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f0f0fa" /><stop offset="1" stop-color="#4da3f0" /></linearGradient>
+          </defs>
+          <g transform="rotate(-28 24 24)">
+            <ellipse cx="24" cy="24" rx="21" ry="8" fill="none" stroke="url(#orbitA)" stroke-width="1.5" />
+            <circle cx="3" cy="24" r="2.4" fill="#4da3f0" />
+          </g>
+          <g transform="rotate(62 24 24)">
+            <ellipse cx="24" cy="24" rx="21" ry="8" fill="none" stroke="url(#orbitB)" stroke-width="1.5" />
+            <circle cx="45" cy="24" r="2" fill="#f0f0fa" />
+            <circle cx="24" cy="16" r="1.9" fill="#4da3f0" />
+          </g>
+        </svg>
+        <span class="wordmark">NE<span class="wordmark__x">X</span>US</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#mission">Mission</a>
+        <a href="#pillars">Pillars</a>
+        <a href="#divisions">Divisions</a>
+        <a href="#events">Events</a>
+        <a href="#crew">Crew</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__right">
+        <span class="nav__status label"><i class="pulse"></i><span data-utc>UTC 00:00:00</span></span>
+        <button class="nav__menu" data-menu-toggle aria-expanded="false" aria-controls="menu">
+          <span class="nav__burger"><i></i><i></i></span>
+          <span class="nav__menu-label">Menu</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Full-screen menu -->
+    <div class="menu" id="menu" data-menu aria-hidden="true">
+      <nav class="menu__links" aria-label="Menu">
+        <a href="#top"><span class="menu__idx">00</span><span class="menu__txt">Home</span></a>
+        <a href="#mission"><span class="menu__idx">01</span><span class="menu__txt">Mission</span></a>
+        <a href="#pillars"><span class="menu__idx">02</span><span class="menu__txt">Pillars</span></a>
+        <a href="#divisions"><span class="menu__idx">03</span><span class="menu__txt">Divisions</span></a>
+        <a href="#events"><span class="menu__idx">04</span><span class="menu__txt">Events</span></a>
+        <a href="#crew"><span class="menu__idx">05</span><span class="menu__txt">Crew</span></a>
+        <a href="#contact"><span class="menu__idx">06</span><span class="menu__txt">Contact</span></a>
+      </nav>
+      <div class="menu__foot">
+        <a class="label" href="mailto:nexus@jaipur.manipal.edu">nexus@jaipur.manipal.edu</a>
+        <div class="menu__social">
+          <a class="label" href="https://www.instagram.com/nexus_muj/" target="_blank" rel="noopener">Instagram</a>
+          <a class="label" href="https://www.linkedin.com/company/nexus-manipal-jaipur/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="label" href="https://github.com/satiricalguru/Nexus-Web-Page" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sector rail -->
+    <aside class="rail" aria-hidden="true">
+      <div class="rail__track"><span class="rail__fill" data-rail-fill></span></div>
+      <ol class="rail__list" data-rail></ol>
+    </aside>
+
+    <main id="top">
+      <!-- 00 HERO -->
+      <section class="hero" id="hero" data-sector="00" data-sector-name="Launch">
+        <div class="hero__inner">
+          <p class="label hero__eyebrow" data-scramble>Manipal University Jaipur · Epoch 2026–27</p>
+          <h1 class="display hero__title" data-split>
+            Where curiosity<br />meets orbit
+          </h1>
+          <p class="body hero__lede" data-fade>
+            A student-led research, space &amp; technology club at MUJ — building payloads, ground stations and the spatial web.
+          </p>
+          <div class="hero__ctas" data-fade>
+            <a href="#mission" class="btn"><span>Explore the mission</span><i class="btn__arrow">→</i></a>
+            <a href="#crew" class="btn btn--quiet"><span>Meet the crew</span><i class="btn__arrow">→</i></a>
+          </div>
+        </div>
+        <div class="hero__telemetry" data-fade>
+          <dl>
+            <div><dt class="label">Station</dt><dd class="label">MUJ-303007</dd></div>
+            <div><dt class="label">Coordinates</dt><dd class="label">26.8439° N, 75.5652° E</dd></div>
+            <div><dt class="label">Altitude</dt><dd class="label" data-altitude>000.0 km</dd></div>
+            <div><dt class="label">Status</dt><dd class="label">Uplink online</dd></div>
+          </dl>
+        </div>
+        <div class="hero__scroll label" data-fade><span class="hero__scroll-line"></span>Scroll</div>
+      </section>
+
+      <!-- 01 MISSION -->
+      <section class="mission" id="mission" data-sector="01" data-sector-name="Mission">
+        <div class="wrap">
+          <p class="label section-tag" data-scramble>01 — Mission</p>
+          <p class="mission__statement" data-words>
+            Nexus is a student-led technical and research organisation at Manipal University Jaipur, under the Directorate of Student Welfare. We give students curious about space science, aerospace engineering, computational physics and modern software a place to build — together, and with their hands.
+          </p>
+          <div class="stats">
+            <div class="stat"><span class="stat__num" data-count="3">0</span><span class="label">Core pillars</span></div>
+            <div class="stat"><span class="stat__num" data-count="5">0</span><span class="label">Divisions</span></div>
+            <div class="stat"><span class="stat__num" data-count="0" data-crew-total>0</span><span class="label">Crew members</span></div>
+            <div class="stat"><span class="stat__num">26–27</span><span class="label">Current epoch</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02 PILLARS (sticky, scroll-driven) -->
+      <section class="pillars" id="pillars" data-sector="02" data-sector-name="Pillars">
+        <div class="pillars__sticky">
+          <div class="pillars__head">
+            <p class="label section-tag">02 — Core mission &amp; pillars</p>
+            <ol class="pillars__index" data-pillar-index></ol>
+          </div>
+          <div class="pillars__stage" data-pillar-stage></div>
+          <div class="pillars__num" aria-hidden="true"><span data-pillar-num>01</span></div>
+          <div class="pillars__progress"><span data-pillar-progress></span></div>
+        </div>
+      </section>
+
+      <!-- DOMAINS -->
+      <section class="domains" id="domains" data-sector="02" data-sector-name="Domains">
+        <div class="wrap">
+          <div class="section-head">
+            <p class="label section-tag" data-scramble>02.1 — Specialised domains</p>
+            <h2 class="headline" data-split>Tools of the trade</h2>
+          </div>
+          <div class="domains__grid" data-domains></div>
+        </div>
+      </section>
+
+      <!-- 03 DIVISIONS (sticky wheel) -->
+      <section class="divisions" id="divisions" data-sector="03" data-sector-name="Divisions">
+        <div class="divisions__sticky">
+          <p class="label section-tag divisions__tag">03 — Organisational divisions</p>
+          <div class="divisions__wheel" data-wheel></div>
+          <div class="divisions__detail" data-wheel-detail></div>
+        </div>
+      </section>
+
+      <!-- 04 EVENTS -->
+      <section class="events" id="events" data-sector="04" data-sector-name="Events">
+        <div class="events__sticky">
+          <div class="wrap events__head">
+            <div>
+              <p class="label section-tag" data-scramble>04 — Flight schedule</p>
+              <h2 class="headline" data-split>What we launch</h2>
+            </div>
+            <div class="events__status">
+              <p class="label"><i class="pulse pulse--standby"></i>Schedule: standby</p>
+              <p class="body small">Confirmed events are announced with dates, venues and registration details on our channels. Here's what to expect.</p>
+              <a class="btn btn--quiet" href="https://www.instagram.com/nexus_muj/" target="_blank" rel="noopener"><span>Follow @nexus_muj</span><i class="btn__arrow">→</i></a>
+            </div>
+          </div>
+          <div class="events__track" data-track></div>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__inner" data-marquee>
+          <span>Deep space</span><span>✕</span><span>Telemetry</span><span>✕</span><span>Ground stations</span><span>✕</span><span>Spatial web</span><span>✕</span><span>Astrophotography</span><span>✕</span><span>SDR</span><span>✕</span>
+        </div>
+      </div>
+
+      <!-- 05 CREW -->
+      <section class="crew" id="crew" data-sector="05" data-sector-name="Crew">
+        <div class="wrap">
+          <div class="section-head section-head--split">
+            <div>
+              <p class="label section-tag" data-scramble>05 — Crew manifest</p>
+              <h2 class="headline" data-split>People behind<br />the mission</h2>
+            </div>
+            <p class="body small crew__meta">Official 2026–27 committee &amp; technical roster · Manipal University Jaipur</p>
+          </div>
+          <div class="command">
+            <div class="command__head">
+              <span class="label">Executive Committee</span>
+              <span class="label dim">2026–27 · Mission command</span>
+            </div>
+            <ol class="command__grid" data-command></ol>
+          </div>
+          <div class="crew__filters" role="tablist" aria-label="Filter crew by division" data-filters></div>
+          <div class="crew__head label" aria-hidden="true">
+            <span>No.</span><span>Name</span><span>Role</span><span>Division</span>
+          </div>
+          <ol class="crew__list" data-crew></ol>
+          <p class="label crew__count" data-crew-count></p>
+        </div>
+      </section>
+
+      <!-- 06 CONTACT -->
+      <section class="contact" id="contact" data-sector="06" data-sector-name="Contact">
+        <div class="wrap">
+          <p class="label section-tag" data-scramble>06 — Establish contact</p>
+          <h2 class="contact__title" data-lines>
+            <span>Join</span>
+            <span>the</span>
+            <span>mission</span>
+          </h2>
+          <div class="contact__grid">
+            <div class="contact__primary">
+              <p class="body">Interested in space science, computational research, payloads or creative web engineering? Open a channel.</p>
+              <button class="contact__email" data-copy="nexus@jaipur.manipal.edu">
+                <span class="contact__email-txt">nexus@jaipur.manipal.edu</span>
+                <span class="label contact__email-hint" data-copy-hint>Click to copy</span>
+              </button>
+              <a class="btn" href="mailto:nexus@jaipur.manipal.edu"><span>Write to us</span><i class="btn__arrow">→</i></a>
+            </div>
+            <ul class="channels" data-channels></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer__row">
+        <div class="footer__col">
+          <span class="label dim">Campus base</span>
+          <span class="label">Academic Block 1 · Manipal University Jaipur, RJ 303007</span>
+        </div>
+        <div class="footer__col">
+          <span class="label dim">Coordinates</span>
+          <span class="label">26.8439° N, 75.5652° E</span>
+        </div>
+        <div class="footer__col">
+          <span class="label dim">Comm liaison</span>
+          <a class="label" href="mailto:nexus@jaipur.manipal.edu">nexus@jaipur.manipal.edu</a>
+        </div>
+        <a class="label footer__top" href="#top">Back to orbit ↑</a>
+      </div>
+      <div class="footer__mark" aria-hidden="true">
+        <svg viewBox="0 0 1000 190" preserveAspectRatio="xMidYMid meet"><text x="500" y="168" text-anchor="middle" textLength="990" lengthAdjust="spacingAndGlyphs">NE<tspan class="x">X</tspan>US</text></svg>
+      </div>
+      <div class="wrap footer__legal">
+        <span class="label dim">© 2026 Nexus · Research, Space &amp; Technology Club · MUJ</span>
+        <span class="label dim">Directorate of Student Welfare</span>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

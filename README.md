@@ -1,184 +1,286 @@
 <div align="center">
 
-  <!-- Widescreen Hero Banner -->
-  <a href="https://github.com/Nexus-Web-Development">
-    <img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/nexus-banner.png" alt="Nexus Widescreen Banner" width="100%" style="border-radius: 12px;" />
-  </a>
+<a href="https://nexus-official-site.vercel.app">
+  <img src=".github/assets/hero.png" alt="Nexus — Where curiosity meets orbit" width="100%" />
+</a>
 
-  <br /><br />
+<br />
 
-  <!-- Animated Typing Header -->
-  <a href="https://github.com/Nexus-Web-Development">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=2500&pause=1000&color=F5CE62&center=true&vCenter=true&width=750&height=55&lines=NEXUS+WEB+DEVELOPMENT;RESEARCH+%7C+SPACE+%7C+TECHNOLOGY;MANIPAL+UNIVERSITY+JAIPUR;PIONEERING+COSMIC+WEB+EXPERIENCES" alt="Typing SVG" />
-  </a>
+<a href="https://nexus-official-site.vercel.app">
+  <img src="https://readme-typing-svg.demolab.com?font=Michroma&size=20&duration=2600&pause=900&color=4DA3F0&center=true&vCenter=true&width=760&height=50&lines=WHERE+CURIOSITY+MEETS+ORBIT;RESEARCH+%E2%80%A2+SPACE+%E2%80%A2+TECHNOLOGY;MANIPAL+UNIVERSITY+JAIPUR;BUILT+BY+NEXUS+WEB+DEVELOPMENT" alt="Where curiosity meets orbit" />
+</a>
 
-  <p align="center">
-    <b>The Official Web Engineering & Digital Innovation Wing of Nexus</b><br />
-    <i>Manipal University Jaipur (MUJ) • Rajasthan, India</i>
-  </p>
+<p>
+  <b>The official website of Nexus, the Research, Space &amp; Technology Club at Manipal University Jaipur.</b><br />
+  <sub>A real-time WebGL journey from low orbit to a ground station and back, built by the Nexus Web Development wing.</sub>
+</p>
 
-  <!-- Interactive Badges -->
-  <p align="center">
-    <a href="https://github.com/Nexus-Web-Development"><img src="https://img.shields.io/badge/Organization-Nexus_Web_Development-D4AF37?style=for-the-badge&logo=github&logoColor=black" /></a>
-    <a href="https://jaipur.manipal.edu/"><img src="https://img.shields.io/badge/Campus-Manipal_University_Jaipur-F15A24?style=for-the-badge&logo=googlemaps&logoColor=white" /></a>
-    <a href="#-interactive-tech-radar"><img src="https://img.shields.io/badge/Stack-WebGL_•_Next.js_•_Three.js-000000?style=for-the-badge&logo=three.js&logoColor=F5CE62" /></a>
-    <a href="#-core-builders"><img src="https://img.shields.io/badge/Builders-3_Core_Creators-10B981?style=for-the-badge&logo=shield" /></a>
-  </p>
+<p>
+  <a href="https://nexus-official-site.vercel.app"><img src="https://img.shields.io/badge/%E2%86%97_Launch_site-nexus--official--site.vercel.app-4DA3F0?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Live site" /></a>
+</p>
 
-  <!-- Quick Navigation Pills -->
-  <p align="center">
-    <a href="https://github.com/Nexus-Web-Development"><b>[ 🏛️ Organization ]</b></a> •
-    <a href="#-about-the-mission"><b>[ 🚀 Mission ]</b></a> •
-    <a href="#-core-domains--tracks"><b>[ 🪐 Domains ]</b></a> •
-    <a href="#-interactive-tech-radar"><b>[ 🛠️ Tech Radar ]</b></a> •
-    <a href="#-core-builders"><b>[ 👥 Builders ]</b></a> •
-    <a href="#-active-projects"><b>[ 🛰️ Projects ]</b></a> •
-    <a href="#-how-to-contribute"><b>[ 🤝 Join Us ]</b></a>
-  </p>
+<p>
+  <img src="https://img.shields.io/badge/Three.js-r186-F0F0FA?style=flat-square&logo=three.js&logoColor=white&labelColor=000000" alt="Three.js" />
+  <img src="https://img.shields.io/badge/GSAP-3.15-F0F0FA?style=flat-square&logo=greensock&logoColor=white&labelColor=000000" alt="GSAP" />
+  <img src="https://img.shields.io/badge/Lenis-smooth_scroll-F0F0FA?style=flat-square&labelColor=000000" alt="Lenis" />
+  <img src="https://img.shields.io/badge/Vite-8-F0F0FA?style=flat-square&logo=vite&logoColor=white&labelColor=000000" alt="Vite" />
+  <img src="https://img.shields.io/badge/Hosted_on-Vercel-F0F0FA?style=flat-square&logo=vercel&logoColor=white&labelColor=000000" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Framework-none_·_vanilla_JS-F0F0FA?style=flat-square&logo=javascript&logoColor=white&labelColor=000000" alt="Vanilla JS" />
+</p>
 
-  <img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/assets/cosmic-divider.svg" width="100%" />
+<p>
+  <a href="#-the-experience"><b>Experience</b></a> ·
+  <a href="#-quick-start"><b>Quick start</b></a> ·
+  <a href="#-updating-content"><b>Update content</b></a> ·
+  <a href="#-under-the-hood"><b>Under the hood</b></a> ·
+  <a href="#-design-system"><b>Design system</b></a> ·
+  <a href="#-core-builders"><b>Builders</b></a> ·
+  <a href="#-contributing"><b>Contribute</b></a>
+</p>
+
+<img src=".github/assets/divider.svg" width="100%" alt="" />
 
 </div>
 
-> [!NOTE]
-> ### 🏛️ Official Club Organization
-> This repository is built for **[Nexus Web Development](https://github.com/Nexus-Web-Development)** — the official Web & Digital Wing of the **Nexus Research, Space & Technology Club** at **Manipal University Jaipur (MUJ)**.
-> 
-> 🌐 **Explore the Official Organization**: **[https://github.com/Nexus-Web-Development](https://github.com/Nexus-Web-Development)**
+## 🛰️ About Nexus
 
-## 🚀 About The Mission
+**Nexus** (formally the *Nexus Research, Space & Technology Club*) is a student-led technical and research organisation at **Manipal University Jaipur**, under the **Directorate of Student Welfare**. It gives students curious about space science, aerospace engineering, computational physics and modern software a place to build things together, with their hands.
 
-**Nexus** is the premier student-led **Research, Space, and Technology Club** at **Manipal University Jaipur**.
+| | Pillar | What we do |
+| :---: | :--- | :--- |
+| 🔭 | **Deep Space & Astrophysics** | Celestial mechanics, orbital dynamics, telescope observation nights and a deep-sky astrophotography archive. |
+| 📡 | **Ground Stations & Telemetry** *(PNR)* | Atmospheric sensor payloads (altitude, pressure, thermal), software-defined radio, satellite downlinks and data pipelines. |
+| 🌐 | **Spatial Web & Creative Computing** | Interactive 3D WebGL & Three.js platforms, data visualisation and creative digital experiences. |
 
-The **Web Development Wing** translates scientific research, rocketry telemetry, planetary rover systems, and astronomy discoveries into captivating, high-performance web applications and spatial 3D interfaces.
+<div align="center"><img src=".github/assets/divider.svg" width="100%" alt="" /></div>
 
+## ✨ The Experience
+
+The whole page is one continuous, scroll-driven 3D scene. A single WebGL canvas sits behind the content, and as you scroll, a **9,216-particle system** reshapes itself into each part of the Nexus story.
+
+<table>
+  <tr>
+    <td width="50%"><img src=".github/assets/pillar-orbits.png" alt="Deep Space pillar — atom orbits around a planet" /><br /><sub><b>01 · Deep Space</b>: particles form the Nexus atom orbits around a procedural planet.</sub></td>
+    <td width="50%"><img src=".github/assets/pillar-dish.png" alt="Ground Stations pillar — radio dish with telemetry beam" /><br /><sub><b>02 · Ground Stations</b>: they rebuild into a radio dish, sending a pulsing telemetry beam.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src=".github/assets/pillar-terrain.png" alt="Spatial Web pillar — animated data terrain" /><br /><sub><b>03 · Spatial Web</b>: they ripple into a living data terrain driven by noise.</sub></td>
+    <td width="50%"><img src=".github/assets/contact.png" alt="Join the mission — sunrise over the planet's limb" /><br /><sub><b>06 · Join the mission</b>: the planet returns for a sunrise over its limb.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src=".github/assets/divisions.png" alt="Divisions wheel" /><br /><sub><b>Divisions</b>: a curved, scroll-driven wheel of the five wings, linked to the roster.</sub></td>
+    <td width="50%"><img src=".github/assets/crew.png" alt="Crew manifest" /><br /><sub><b>Crew manifest</b>: the 2026–27 executive committee plus a filterable roster of 108 members.</sub></td>
+  </tr>
+</table>
+
+```mermaid
+flowchart LR
+    A["🌍 Launch<br/><sub>planet horizon</sub>"] --> B["✦ Mission<br/><sub>words light up</sub>"]
+    B --> C["⚛️ Orbits<br/><sub>Deep Space</sub>"]
+    C --> D["📡 Dish<br/><sub>Ground Stations</sub>"]
+    D --> E["🌐 Terrain<br/><sub>Spatial Web</sub>"]
+    E --> F["🌌 Nebula<br/><sub>Divisions · Events · Crew</sub>"]
+    F --> G["🌅 Sunrise<br/><sub>Join the mission</sub>"]
 ```
-                  ┌─────────────────────────────────────┐
-                  │      NEXUS RESEARCH & SPACE         │
-                  └──────────────────┬──────────────────┘
-                                     │
-           ┌─────────────────────────┼─────────────────────────┐
-           ▼                         ▼                         ▼
-   ┌───────────────┐         ┌───────────────┐         ┌───────────────┐
-   │ Space & Tech  │         │ Deep Research │         │  WEB DEV WING │
-   │ Rocketry / AI │         │  Astrophysics │         │  Portals / 3D │
-   └───────────────┘         └───────────────┘         └───────┬───────┘
-                                                               │
-                                  ┌────────────────────────────┴─────────────┐
-                                  ▼                                          ▼
-                         [ Interactive 3D WebGL ]                   [ Realtime Telemetry UI ]
-```
 
-<img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/assets/cosmic-divider.svg" width="100%" />
-
-## 🪐 Core Domains & Tracks
-
-<details open>
-<summary><b>🔭 Click to expand/collapse Innovation Domains</b></summary>
+<details>
+<summary><b>🎬 Every motion detail, section by section</b></summary>
 <br />
 
-| Domain | Focus & Deliverables | Core Tech |
-| :--- | :--- | :--- |
-| **🌌 Cosmic Portals & 3D Web** | Immersive WebGL experiences, interactive solar system models, space mission landing pages. | Three.js, GSAP, WebGL Shaders, Canvas API |
-| **🛰️ Telemetry & Ground Stations** | Real-time mission control dashboards for CanSat, high-altitude balloons, and rover sensor streaming. | Next.js, WebSockets, Chart.js, Tailwind CSS |
-| **🔬 Research Publication Hub** | Academic portals showcasing student-authored space research, whitepapers, and conference publications. | React, TypeScript, MDX, Node.js |
-| **⚡ Community & Event Engines** | Hackathon registration engines, member onboarding hubs, recruitment challenges, and live leaderboards. | Next.js, Firebase, Cloudflare, GitHub Actions |
+| Section | Motion |
+| :--- | :--- |
+| **Loader** | Uplink count from 000 to 100, a scrambled status readout, then a curtain reveal |
+| **Hero** | Headline characters rise in, the planet ascends, and the readouts include a live UTC clock and an altitude figure that climbs as you scroll |
+| **Mission** | The statement brightens word by word as you scroll, then counters tick up |
+| **Pillars** | A pinned three-chapter sequence with an index, an outlined numeral and a progress line. The particles morph between shapes |
+| **Domains** | A spec sheet with thin dividers above a data-terrain floor |
+| **Divisions** | A pinned wheel that rotates the five wings along an arc |
+| **Events** | A pinned horizontal track of event formats, each with generated line art |
+| **Marquee** | Speeds up with your scroll and reverses with scroll direction |
+| **Crew** | Division filters, plus names that scramble on hover |
+| **Everywhere** | Lenis smooth scroll, a crosshair cursor, labels that decode as they appear, a sector rail and a full-screen menu |
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/assets/cosmic-divider.svg" width="100%" />
+<div align="center"><img src=".github/assets/divider.svg" width="100%" alt="" /></div>
 
-## 🛠️ Interactive Tech Radar
+## 🚀 Quick Start
 
-<div align="center">
+> **Requires** Node.js 20+
 
-| Ecosystem | Technologies |
+```bash
+git clone https://github.com/Nexus-Web-Development/Nexus-Web-Page.git
+cd Nexus-Web-Page
+npm install
+npm run dev        # → http://localhost:5173
+```
+
+| Command | What it does |
 | :--- | :--- |
-| **Frontend & Web Core** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
-| **Creative & 3D WebGL** | ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white) ![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white) ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black) ![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white) |
-| **Backend & Cloud** | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) |
+| `npm run dev` | Starts the Vite dev server with hot reload |
+| `npm run build` | Builds the production bundle into `dist/` |
+| `npm run preview` | Serves the production build locally |
 
-</div>
+<div align="center"><img src=".github/assets/divider.svg" width="100%" alt="" /></div>
 
-<img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/assets/cosmic-divider.svg" width="100%" />
+## 📝 Updating Content
+
+**You don't need to touch any layout code.** Every word, person and link on the site comes from one file: [`src/data.js`](src/data.js).
+
+```js
+// src/data.js — add a crew member: [name, role, division]
+const roster = [
+  ['Aaroh Sinha', 'President', 'Executive Committee'],
+  // ...
+  ['New Member', 'JC', 'Web Development'],
+];
+```
+
+Counts, filters, division totals and the "crew members" stat all **update automatically**.
+
+| To change… | Edit in `src/data.js` |
+| :--- | :--- |
+| Executive committee, core committee, team heads, JCs | `roster` |
+| The three mission pillars | `pillars` |
+| Specialised domains (DOM-01 to DOM-04) | `domains` |
+| The five divisions on the wheel | `divisions` |
+| Event formats in the flight schedule | `formats` |
+| Social and contact channels | `channels` |
+| Crew filter buttons | `crewFilters` |
+
+> [!TIP]
+> Starting a new epoch? Duplicate the roster, update `site.epoch`, and push. Vercel deploys it in about 15 seconds.
+
+<div align="center"><img src=".github/assets/divider.svg" width="100%" alt="" /></div>
+
+## 🔧 Under the Hood
+
+```
+Nexus-Web-Page/
+├── index.html          # Page structure, SEO & social meta
+├── public/
+│   ├── nexus-logo.png  # Official logo (social previews)
+│   └── favicon.svg
+├── src/
+│   ├── data.js         # ✏️  All content: roster, pillars, divisions, channels
+│   ├── scene.js        # 🪐 WebGL: shader planet, atmosphere, sunrise flare, stars, morphing particles
+│   ├── main.js         # 🎬 Loader, smooth scroll, scroll→scene keyframes, pinned sections, crew, menu
+│   └── style.css       # 🎨 Design tokens & responsive layout
+└── vite.config.js
+```
+
+<details>
+<summary><b>🪐 How the WebGL scene works</b></summary>
+<br />
+
+- **Planet:** a 160×160 sphere with a custom GLSL shader. Simplex-noise fBm generates continents, ice caps and drifting clouds. It has ocean specular, warm city lights on the night side, and a Fresnel rim, wrapped in an additive atmosphere shell that fades out from the limb.
+- **Particles:** one `BufferGeometry` holds five target shapes as separate attributes (scatter, orbits, dish, terrain, nebula). The vertex shader blends between them with a per-particle stagger and adds noise turbulence while they move. Orbit and terrain positions are computed live on the GPU, so the rings spin and the terrain ripples at no CPU cost.
+- **Scroll choreography:** `measureFrames()` in `main.js` pins scene states (planet position, sun direction, morph stage, opacity) to scroll positions measured from the DOM. Each frame interpolates between keyframes, and the scene eases toward the target using frame-rate-independent damping.
+- **Performance:** a single renderer and draw-call-light scene, with the pixel ratio capped at 1.75. It renders frames only while the tab is visible and degrades gracefully if WebGL is unavailable.
+
+</details>
+
+<details>
+<summary><b>♿ Accessibility & resilience</b></summary>
+<br />
+
+- Respects `prefers-reduced-motion`: native scrolling and near-instant transitions.
+- Semantic landmarks, `aria` state on the menu and filters, visible focus outlines and keyboard-closable menu (<kbd>Esc</kbd>).
+- The custom cursor is disabled on touch devices. The layout is fully responsive down to 375px with no horizontal scroll.
+- The content is still there if the 3D scene fails; only the backdrop disappears.
+
+</details>
+
+<div align="center"><img src=".github/assets/divider.svg" width="100%" alt="" /></div>
+
+## 🎨 Design System
+
+A mission-control look in the style of SpaceX: **cinematic darkness, industrial type, and colour that arrives only as light.**
+
+| Token | Value | Use |
+| :--- | :--- | :--- |
+| ![](https://img.shields.io/badge/-%20%20%20%20-000000?style=flat-square) **Void** | `#000000` | Every surface |
+| ![](https://img.shields.io/badge/-%20%20%20%20-F0F0FA?style=flat-square) **Star White** | `#F0F0FA` | All text, icons and hairline borders |
+| ![](https://img.shields.io/badge/-%20%20%20%20-545457?style=flat-square) **Dim Steel** | `#545457` | Muted labels and dividers |
+| ![](https://img.shields.io/badge/-%20%20%20%20-4DA3F0?style=flat-square) **Nexus Blue** | `#4DA3F0` | **Logo only**: orbit mark, the *X* in the wordmark, footer mark |
+
+- **Type:** *Barlow* (a D-DIN-style industrial sans) for everything. Labels are uppercase with 0.10–0.12em tracking. The wordmark is set in *Michroma*.
+- **Buttons:** 1px hairline outlines with a 4px radius, never filled. The 32px pill shape is reserved for filter toggles.
+- **No UI accent colour:** colour only appears as light in the 3D scene, like the planet's blue atmosphere and the warm sunrise.
+
+<div align="center"><img src=".github/assets/divider.svg" width="100%" alt="" /></div>
 
 ## 👥 Core Builders
 
-<p align="center">
-  <i>Designed, architected, and engineered by the core trio for the Nexus Space & Research Web Experience at Manipal University Jaipur.</i>
-</p>
+<p align="center"><i>Designed, architected and engineered by the Nexus Web Development wing.</i></p>
 
 <div align="center">
-
 <table>
   <tr>
     <td align="center" width="160">
       <a href="https://github.com/satiricalguru">
-        <img src="https://github.com/satiricalguru.png?size=100" width="85" height="85" style="border-radius: 50%;" /><br />
+        <img src="https://github.com/satiricalguru.png?size=100" width="85" height="85" alt="Jatin Pandey" /><br />
         <sub><b>Jatin Pandey</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Core_Builder-D4AF37?style=flat-square" />
+      <img src="https://img.shields.io/badge/Core_Builder-4DA3F0?style=flat-square" alt="Core Builder" />
     </td>
     <td align="center" width="160">
       <a href="https://github.com/SynthReaper">
-        <img src="https://github.com/SynthReaper.png?size=100" width="85" height="85" style="border-radius: 50%;" /><br />
+        <img src="https://github.com/SynthReaper.png?size=100" width="85" height="85" alt="Aditya Goyal" /><br />
         <sub><b>Aditya Goyal</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Core_Builder-D4AF37?style=flat-square" />
+      <img src="https://img.shields.io/badge/Core_Builder-4DA3F0?style=flat-square" alt="Core Builder" />
     </td>
     <td align="center" width="160">
       <a href="https://github.com/lakshya-agrawal254">
-        <img src="https://github.com/lakshya-agrawal254.png?size=100" width="85" height="85" style="border-radius: 50%;" /><br />
+        <img src="https://github.com/lakshya-agrawal254.png?size=100" width="85" height="85" alt="Lakshya" /><br />
         <sub><b>Lakshya</b></sub>
       </a><br />
-      <img src="https://img.shields.io/badge/Core_Builder-D4AF37?style=flat-square" />
+      <img src="https://img.shields.io/badge/Core_Builder-4DA3F0?style=flat-square" alt="Core Builder" />
     </td>
   </tr>
 </table>
 
+<a href="https://github.com/Nexus-Web-Development/Nexus-Web-Page/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Nexus-Web-Development/Nexus-Web-Page" alt="Contributors" />
+</a>
 </div>
 
-<img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/assets/cosmic-divider.svg" width="100%" />
+<div align="center"><img src=".github/assets/divider.svg" width="100%" alt="" /></div>
 
-## 🛰️ Active Projects
+## 🤝 Contributing
 
-<details open>
-<summary><b>🚀 Click to inspect current repository roadmap</b></summary>
-<br />
-
-1. **Nexus Web Portal** (`Nexus-Web-Page`):
-   - Interactive 3D hero animation built with Three.js.
-   - Comprehensive showcase of Nexus MUJ research papers, rocketry projects, and club chapters.
-2. **Ground Station Telemetry**:
-   - Web-based telemetry dashboard visualizing altitude, temperature, GPS trajectories, and payload stats in real-time.
-3. **Cosmic UI Design System**:
-   - Tailored gold-and-void dark aesthetic tailored specifically for deep-tech and space projects.
-
-</details>
-
-<img src="https://raw.githubusercontent.com/Nexus-Web-Development/Nexus-Web-Page/main/assets/cosmic-divider.svg" width="100%" />
-
-## 🤝 How to Contribute
-
-We welcome contributions from developers, designers, and space enthusiasts across Manipal University Jaipur and the global open-source community!
+We welcome developers, designers and space enthusiasts from across MUJ and the open-source community.
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/Nexus-Web-Development/Nexus-Web-Page.git
-
-# 2. Create your feature branch
-git checkout -b feature/cosmic-feature
-
-# 3. Commit your changes
-git commit -m "feat: add cosmic interaction"
-
-# 4. Push to origin and open a Pull Request
-git push origin feature/cosmic-feature
+git checkout -b feat/your-idea           # 1. branch off main
+npm run dev                              # 2. build & preview locally
+npm run build                            # 3. make sure production builds
+git commit -m "feat: add your idea"      # 4. use Conventional Commits
+git push origin feat/your-idea           # 5. open a Pull Request
 ```
 
----
+- Content changes go in `src/data.js`. Please keep personal details (phone numbers, registration numbers, emails) **out of the repo**.
+- Follow the design system: no filled buttons, and no new accent colours.
+- Check both desktop and mobile (375px) before opening a PR.
+
+<div align="center"><img src=".github/assets/divider.svg" width="100%" alt="" /></div>
+
+## 📬 Connect
 
 <div align="center">
-  <b>🌐 Organization: <a href="https://github.com/Nexus-Web-Development">Nexus-Web-Development</a></b><br />
-  <sub>Pioneering Space & Technology through Code • © 2026 Nexus MUJ</sub>
+
+<a href="https://www.instagram.com/nexus_muj/"><img src="https://img.shields.io/badge/Instagram-@nexus__muj-000000?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="https://www.linkedin.com/company/nexus-manipal-jaipur/"><img src="https://img.shields.io/badge/LinkedIn-Nexus_Manipal_Jaipur-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:nexus@jaipur.manipal.edu"><img src="https://img.shields.io/badge/Email-nexus@jaipur.manipal.edu-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/Nexus-Web-Development"><img src="https://img.shields.io/badge/GitHub-Nexus--Web--Development-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+
+<br /><br />
+
+<img src=".github/assets/logo.png" width="120" alt="Nexus logo" />
+
+<sub><b>Nexus · Research, Space &amp; Technology Club</b><br />
+Academic Block 1 · Manipal University Jaipur, RJ 303007 · 26.8439° N, 75.5652° E<br />
+© 2026 Nexus MUJ · Directorate of Student Welfare</sub>
+
 </div>

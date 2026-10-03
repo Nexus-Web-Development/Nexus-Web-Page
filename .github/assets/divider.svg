@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 24" width="100%" height="24">
+  <defs>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4DA3F0" stop-opacity="0" />
+      <stop offset="30%" stop-color="#4DA3F0" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#F0F0FA" stop-opacity="1" />
+      <stop offset="70%" stop-color="#4DA3F0" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#4DA3F0" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="pulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0F0FA" stop-opacity="0" />
+      <stop offset="50%" stop-color="#F0F0FA" stop-opacity="1" />
+      <stop offset="100%" stop-color="#F0F0FA" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="12" x2="900" y2="12" stroke="url(#beam)" stroke-width="1" />
+  <rect x="-120" y="11" width="120" height="2" fill="url(#pulse)">
+    <animate attributeName="x" from="-120" to="900" dur="3.6s" repeatCount="indefinite" />
+  </rect>
+  <g transform="translate(450 12)">
+    <ellipse rx="16" ry="5" fill="none" stroke="#4DA3F0" stroke-width="1" transform="rotate(-28)" />
+    <ellipse rx="16" ry="5" fill="none" stroke="#F0F0FA" stroke-width="1" transform="rotate(62)" />
+    <circle r="1.6" fill="#F0F0FA" transform="rotate(-28)">
+      <animateMotion dur="2.4s" repeatCount="indefinite" path="M -16 0 A 16 5 0 1 0 16 0 A 16 5 0 1 0 -16 0" />
+    </circle>
+  </g>
+</svg>
