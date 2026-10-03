@@ -752,6 +752,60 @@ main,
 .stat .label {
   color: var(--muted);
 }
+.registry {
+  margin: 56px 0 0;
+  display: grid;
+  grid-template-columns: auto repeat(4, 1fr);
+  align-items: center;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.registry__tag {
+  color: var(--faint);
+  padding: 18px 32px 18px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.registry__tag::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 1px solid var(--star);
+  border-radius: 50%;
+}
+.registry__item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 18px 24px;
+  border-left: 1px solid var(--line);
+}
+.registry__item dt {
+  color: var(--faint);
+  font-size: 10px;
+}
+.registry__item dd {
+  margin: 0;
+  color: var(--star);
+}
+@media (max-width: 900px) {
+  .registry {
+    grid-template-columns: 1fr 1fr;
+  }
+  .registry__tag {
+    grid-column: 1 / -1;
+    border-bottom: 1px solid var(--line);
+  }
+  .registry__item {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .registry__item:nth-of-type(odd) {
+    border-left: 1px solid var(--line);
+    padding-left: 16px;
+  }
+}
 
 /* --------------------------------------------------------------------------
    Pillars (sticky)

@@ -11,6 +11,14 @@ export const site = {
   address: 'Academic Block 1 · Manipal University Jaipur, RJ 303007',
 };
 
+// Official club registry details (MUJ DSW)
+export const registry = [
+  { label: 'Established', value: 'December 2020' },
+  { label: 'Department', value: 'Department of CSE' },
+  { label: 'Type of club', value: 'Departmental' },
+  { label: 'Nature', value: 'Technical' },
+];
+
 export const pillars = [
   {
     id: 'P-01',

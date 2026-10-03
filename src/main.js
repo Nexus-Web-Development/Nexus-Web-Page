@@ -5,7 +5,7 @@ import { SplitText } from 'gsap/SplitText';
 import { ScrambleTextPlugin } from 'gsap/ScrambleTextPlugin';
 import Lenis from 'lenis';
 import { createScene, defaults } from './scene.js';
-import { pillars, domains, divisions, formats, channels, membership, crew, crewFilters, countFor } from './data.js';
+import { pillars, domains, divisions, formats, channels, membership, registry, crew, crewFilters, countFor } from './data.js';
 
 gsap.registerPlugin(ScrollTrigger, SplitText, ScrambleTextPlugin);
 
@@ -162,6 +162,12 @@ function renderFormats() {
     .join('');
 }
 
+function renderRegistry() {
+  $('[data-registry]').innerHTML =
+    `<div class="registry__tag label">Club registry</div>` +
+    registry.map((r) => `<div class="registry__item"><dt class="label">${r.label}</dt><dd class="label">${r.value}</dd></div>`).join('');
+}
+
 function renderMembership() {
   $('[data-join-pitch]').textContent = membership.pitch;
   $('[data-fee]').dataset.count = membership.fee;
@@ -301,6 +307,7 @@ renderDivisions();
 renderFormats();
 renderChannels();
 renderMembership();
+renderRegistry();
 initCrew();
 $$('.btn > span').forEach((s) => (s.dataset.text = s.textContent));
 
@@ -457,7 +464,7 @@ function initReveals() {
   });
 
   // generic fade-ups
-  gsap.utils.toArray('.domain, .stat, .channel, .command__cell, .perk, .ticket, .contact__primary > *').forEach((el, i) => {
+  gsap.utils.toArray('.domain, .stat, .registry__item, .channel, .command__cell, .perk, .ticket, .contact__primary > *').forEach((el, i) => {
     gsap.from(el, {
       opacity: 0,
       y: 40,
